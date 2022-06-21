@@ -6,7 +6,7 @@
 
 stdenv.mkDerivation rec {
   pname = "unison-code-manager";
-  milestone_id = "M2l";
+  milestone_id = "M3";
   version = "1.0.${milestone_id}-alpha";
 
   src = if (stdenv.isDarwin) then
